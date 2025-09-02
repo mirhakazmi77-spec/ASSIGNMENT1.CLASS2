@@ -1,63 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-    <title>Day 5 Entities</title>
-</head>   
-<body>
-    <div>
-       <h1>HTML Entities</h1>
-       <p>
-        HTML entities are used to display represent special characters and symbols
-        that have the reserved meaning in HTML. These entities are espically important when you want
-        to display characters that might conflict with HTML syntax or when you want to include characters that are not easily typed on a keyboard.
-        that aren't directly available on your keyboard
-        Below are some commonly used HTML entities:
-       </p>
-     <hr>
-        <pre>
-        &amp;  - Ampersand (&)
-        &lt;  - Less than (<)
-        &gt;  - Greater than (>)
-        &quot; - Double Quote (")
-        &apos; - Single Quote (')
-        &copy; - Copyright (©)
-        &reg;  - Registered Trademark (®)
-        &euro; - Euro Sign (€)
-        &dollar; - dollar Sign ($)
-        &trade; - Trade Mark (™)
-        &nbsp; - Non-breaking Space
-        &hearts; - Heart Symbol (♥)
-
-        <img src="c:\Users\Laptop\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\05A5CF06982BA7892ED2A6D38FE832D6\WhatsApp Image 2025-08-24 at 15.16.11_c97735e8.jpg" alt="frame" </img>
-        </pre>  
-     <hr>
-     <h2>Example</h2>
-     <P>This is an example of a &lt;p&gt; tag.</P>
-     <p>&COPY; 2024 Mrmaania Company.All right reserved.</p>
-     
-     <hr>
-
-     <pre>
-        1:WHEN MIGHT YOU USE THE &nbsp; entity?
-       THE & nbsp; ENTITY IS USED TO INSERT A NON-BREAKING SPACE,WHICH Prevents 
-       THE BROWSER FROM COLLAPSING CONSECUTIVE SPACES INTO ONE.
+ <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+     <title>AUDIO TAG</title>
+    </head>
+    <H>
+        <h1>THIS IS A AUDIO TAG</h1>
+        <!--audio tag👍-->
+        <hr><hr>
+         
+        <h2>Audio definition</h2>
+        <!----Defination👍-->    
+        <p>The HTML <code>&lt;audio&gt;</code> tag is used to embed sound content in a web page, such as music or other audio streams. It is a self-contained tag and does not require a closing tag.</p>
+        The <code>&lt;audio&gt;</code> tag has two required attributes <br>
+       <strong>Syntax</strong><br>
+       <!---Syntax👍-->
        
-       2:REPRESNT THE DOLLAR SIGN SYMBOL USING DIFFRENT HTML ENTITY METHODS
-       USING NAME ENTITY: & dollar
-
-       using Hexadecimal Numeric Reference:#XOOO24;
-
-       using Decimal Numeric Reference: &#36;
-
-     </pre>
-     <hr><hr>
-
-    <p>&COPY; 2024 Mrmaania Company.All right reserved.</p> 
-    </div>
-</body>
-    
-            
+       <audio controls>
+        <source  src="audiofile.mp3.mp3"type="audio/mpeg">
+      </audio>
+        <p>The <code>&lt;audio&gt;</code> tag has two required attributes:</p>
+        <ul>
+          <li><code>src</code>: Specifies the path to the audio file. This can be a relative or absolute URL.</li>
+          <li><code>controls</code>: When this attribute is present, it adds audio controls, such as play, pause, and volume, to the audio player.</li>
+        </ul>
+        <p>Additionally, the <code>&lt;audio&gt;</code> tag can contain multiple <code>&lt;source&gt;</code> elements to provide different audio formats for better browser compatibility. The browser will use the first format it supports.</p>
+        <h2>Attributes of &lt;audio&gt; tag</h2>
+        <!----Attributes👍-->
+        <table border="1">
+          <tr>
+          <th>Attribute</th>
+          <th>Description</th>
+          </tr>
+          <tr>
+          <td><code>autoplay</code></td>
+          <td>This attribute specifies that the audio should start playing as soon as it is ready, without requiring user interaction.</td>
+          </tr>
+          <tr>
+          <td><code>controls</code></td>
+          <td>This attribute adds audio controls, such as play, pause, and volume, to the audio player.</td>
+          </tr>
+          <tr>
+          <td><code>loop</code></td>
+          <td>This attribute specifies that the audio should start over again, every time it is finished.</td>
+          </tr>
+          <tr>
+          <td><code>muted</code></td>
+          <td>This attribute specifies that the audio output should be muted (no sound).</td>
+          </tr>
+          <tr>
+          <td><code>preload</code></td>
+          <td>This attribute specifies if and how the author thinks that the audio should be loaded when the page loads. It can take three values: "auto", "metadata", and "none".</td>
+          </tr>
+        </table>
+  
+        <h2>Example of &lt;audio&gt; tag</h2>
+        <!----Example👍-->
+        <p>Here is an example of how to use the &lt;audio&gt; tag in an HTML document:</p>
+        <body>
+&lt;audio controls&gt;<br>
+  &lt;source src""audiofile.mp3.mp.mp3" type="audio/mpeg"&gt<br>
+  &lt;/audio&gt;
+        </body>
+</html>
+   
         
-    
+
+
+
+
+   
+
+
+          
+      
+      
+        
+
+
+
+        
